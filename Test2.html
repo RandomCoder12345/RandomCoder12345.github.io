@@ -1,4 +1,6 @@
-
+<!--
+All pages for this website use the Album template from BootStrap. The cards shown on this page were also courtesy of Bootstrap. Pictures come from Super Smash Bros. Wikia. The Videos linked in the Monntage/Helpful Videos page are linked there.
+-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,11 +13,11 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/album/">
 
-    <!-- Bootstrap core CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Favicons -->
+
 <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
 <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -27,22 +29,22 @@
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    body{
+      background-color: #0be881;
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+    @media screen and (min-width: 900px) {
+      body {
+        background-color: #C4E538;
       }
+    }
+
+    .smallimage{
+      width: 50px
+      length: 50px
+    }
     </style>
-    <!-- Custom styles for this template -->
+
     <link href="album.css" rel="stylesheet">
   </head>
   <body>
@@ -69,9 +71,7 @@
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
       <a href="file:///C:/Users/Noah/Desktop/my%20website/RandomCoder12345.github.io/index.html#" class="navbar-brand d-flex align-items-center">
-        <!--
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-      -->
+
         <strong>Home Page</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +83,7 @@
 
 <main role="main">
 
-  <section class="jumbotron text-center">
+  <section class="jumbotron text-center"  style="background-color: #0be881">
     <div class="container">
       <h1>Pricing</h1>
     </div>
@@ -137,12 +137,17 @@
           <td>$5.99</td>
         </tr>
     </tbody>
-    <tfoot>
-        <tr>
-          <td>Buy It!</td>
-        </tr>
-    </tfoot>
   </table>
+
+
+<p2>These items are available at your local store like Target or Walmart.</p2>
+<ul class="list-unstyled">
+  <li><a href="https://www.target.com/s/threshold%20pillows?ref=tgt_adv_XS000000&AFID=msn&CPNG=Home%2BD%C3%A9cor_Brand&adgroup=Threshold&LID=700000001176304p25395497631&LNM=threshold+pillows&MT=b&network=s&device=c&querystring=target&fndsrc=tgtao&msclkid=1197f486b35115b49200aa4147a9348f&gclid=CNe_sM7px-kCFYi7fgodQDcClw&gclsrc=ds" class="text-black">
+    <img class="smallimage" src="data:image/png;base64,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" />
+  </a></li>
+  <li><a href="https://www.walmart.com/search/?query=elastic&cat_id=1334134">
+    <img class="smallimage" src="https://i5.walmartimages.com/dfw/4ff9c6c9-e214/k2-_c1b608df-0cc5-4060-a8fa-23c12a946190.v1.png" /></a></li>
+</ul>
 
 
 <style>
@@ -168,11 +173,7 @@
     <p class="float-right">
       <a href="#">Back to top</a>
     </p>
-    <!--
-    <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
 
-    <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.4/getting-started/introduction/">getting started guide</a>.</p>
-    -->
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

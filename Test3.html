@@ -1,3 +1,6 @@
+<!--
+All pages for this website use the Album template from BootStrap. The cards shown on this page were also courtesy of Bootstrap. Pictures come from Super Smash Bros. Wikia. The Videos linked in the Monntage/Helpful Videos page are linked there.
+-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,11 +13,11 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/album/">
 
-    <!-- Bootstrap core CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Favicons -->
+
 <link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
 <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -26,22 +29,17 @@
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+    body{
+      background-color: #34e7e4;
+    }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
+    @media screen and (min-width: 900px) {
+      body {
+        background-color: #b8e994;
       }
+    }
     </style>
-    <!-- Custom styles for this template -->
+
     <link href="album.css" rel="stylesheet">
   </head>
   <body>
@@ -68,9 +66,7 @@
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container d-flex justify-content-between">
       <a href="file:///C:/Users/Noah/Desktop/my%20website/RandomCoder12345.github.io/index.html#" class="navbar-brand d-flex align-items-center">
-        <!--
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-      -->
+
         <strong>Home Page</strong>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,7 +78,7 @@
 
 <main role="main">
 
-  <section class="jumbotron text-center">
+  <section class="jumbotron text-center" style="background-color: #34e7e4">
     <div class="container">
       <h1>Montages/Helpful Videos</h1>
     </div>
@@ -99,10 +95,13 @@
     </ul>
   </p3>
 <p4>Make sure you check these guy's channels out, they make amazing smash content and got me into the game.</p4>
-</section>
-  <div class="album py-5 bg-light">
-    <div class="container">
+
 <style>
+.small-image{
+  width:100px;
+  length:100px;
+}
+
   .smaller-image{
     width: 250px;
     length: 100px;
@@ -117,6 +116,13 @@
 </main>
 
 <footer class="text-muted">
+  <a href="https://www.instagram.com/zerowondering/">
+  <img class="small-image" src="https://imageog.flaticon.com/icons/png/512/174/174855.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" class="ZeroInsta">
+  ZeroInsta</a>
+  <a href="https://www.twitch.tv/LittleZ_SSB">
+  <img class="small-image" src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/16-512.png" class="LittleZTwitch">
+  LittleZTwitch</a>
+  </section>
   <p id="date"></p>
   <script>
   document.getElementById("date").innerHTML = Date();
@@ -125,11 +131,7 @@
     <p class="float-right">
       <a href="#">Back to top</a>
     </p>
-    <!--
-    <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
 
-    <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.4/getting-started/introduction/">getting started guide</a>.</p>
-    -->
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
